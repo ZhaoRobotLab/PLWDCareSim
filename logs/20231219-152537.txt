@@ -1,0 +1,18 @@
+SimManager initialized at 20231219-152537
+Interventionist did a step.
+	(verbal_utterance="ParticipantName, let's start the grocery shopping task by finding items on a shopping list.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Alright, we need, um... what was it again?",
+nonverbal_behavior=[furrowed brows, patient appears to be trying to recall, looks around seemingly for clues])
+
+
+Interventionist did a step.
+	(verbal_utterance="Don't worry about remembering, I have the list right here. Let's start by picking up a box of cereal.", nonverbal_behavior=[gentle tone, pointing to the list and then to the cereal], ready_to_continue=false, current_step=1, final_step=false)
+
+

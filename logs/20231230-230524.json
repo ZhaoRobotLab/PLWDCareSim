@@ -1,0 +1,122 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's begin with our grocery shopping task. Here's your list. Can you pick up the first item from the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, yes, I see the list. Let's see, the first item is... got it!",
+        "nonverbal_behavior": [
+            "nods affirmatively",
+            "reaches for the item with confidence"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've found the first item. What's next on the list?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, let me see... the next item is this one here!",
+        "nonverbal_behavior": [
+            "Points to the item on the list and then to the corresponding item on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you're doing well. What's the next item on the list that you can find on the table?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Let's see, the next item is... here it is!",
+        "nonverbal_behavior": [
+            "Nods in understanding",
+            "reaches for the next item confidently"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! What's the next item on the list that you need to find?",
+        "nonverbal_behavior": [
+            "Smiles and maintains a positive",
+            "encouraging tone"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, let me see, the next item is... here it is!",
+        "nonverbal_behavior": [
+            "Nods in understanding",
+            "reaches for the next item with a steady hand"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! What's the next item on the list that you need to find?",
+        "nonverbal_behavior": [
+            "Smiles and maintains a supportive posture"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Can you remind me what I'm looking for again?",
+        "nonverbal_behavior": [
+            "Looks at the list intently",
+            "appears to be trying to remember"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

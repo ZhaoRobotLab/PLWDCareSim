@@ -1,0 +1,124 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with our shopping task. We have a list of items to pick up from the table. Can you find the box of Chopped Broccoli first?",
+        "nonverbal_behavior": [
+            "pointing to the grocery list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I can do that. Here's the box of Chopped Broccoli.",
+        "nonverbal_behavior": [
+            "patient reaches for the box confidently"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Well done picking up the Chopped Broccoli! Now, can you find the box of Green Peas?",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding in approval"
+        ],
+        "ready_to_continue": "true",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying, but it's a bit hard to remember which one is the Green Peas.",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "looking around with slight confusion"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well, just take your time to look at the items.",
+        "nonverbal_behavior": [
+            "gentle smile",
+            "nodding encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "1",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Thank you, I see the Green Peas here.",
+        "nonverbal_behavior": [
+            "smiling",
+            "carefully picking up the box of Green Peas"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've found the Green Peas. Now, let's look for the Chopped Spinach next.",
+        "nonverbal_behavior": [
+            "nodding encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Okay, I'm looking for the Chopped Spinach now.",
+        "nonverbal_behavior": [
+            "nodding in understanding",
+            "focused gaze searching for the item"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you're doing well. Now, let's find the Chopped Spinach.",
+        "nonverbal_behavior": [
+            "smiling",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here is the Chopped Spinach.",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding in understanding"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

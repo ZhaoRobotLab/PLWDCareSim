@@ -1,0 +1,28 @@
+SimManager initialized at 1703014699.4956477
+Interventionist did a step.
+	(verbal_utterance="ParticipantName, let's start the grocery shopping task by finding items on a shopping list.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Um, what was I looking for again?",
+nonverbal_behavior=[Facial expression shows concentration, but confusion is evident as the brows are furrowed and gaze is unfocused.])
+Interventionist did a step.
+	(verbal_utterance="We're going to find the items on this list. Can you pick out the milk first?", nonverbal_behavior=[showing the list, pointing to the word 'milk' on the list], ready_to_continue=false, current_step=1, final_step=false)
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What was I looking for? Oh yes, milk...",
+nonverbal_behavior=[Frowning slightly, touching forehead, looking around slowly])
+Interventionist did a step.
+	(verbal_utterance="Look at the list and find the milk. It's one of the items we need.", nonverbal_behavior=[maintain eye contact, gentle nod], ready_to_continue=false, current_step=1, final_step=false)
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Milk... I, I was looking for milk.",
+nonverbal_behavior=[furrowed brows, slight head tilt indicating effort to remember])

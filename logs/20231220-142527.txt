@@ -1,0 +1,33 @@
+SimManager initialized at 20231220-142527
+Interventionist did a step.
+	(verbal_utterance="Here is a grocery list. Please select the items on the list from the table. Would you like the instructions repeated?", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="No, no need to repeat... I, I can manage this," nonverbal_behavior=[patient looks at the list intently, appears slightly puzzled but determined, hesitates before reaching for items])
+
+
+Interventionist did a step.
+	(verbal_utterance="That's great, you're doing well. Is there anything on the table that looks familiar from the list?", nonverbal_behavior=[], ready_to_continue=true, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="Um, I think this one? No, maybe not. I can't quite recall.", nonverbal_behavior=[scratches head, appears uncertain while looking at the items on the table])
+
+
+Interventionist did a step.
+	(ready_to_continue=true, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="This one, I think...and, oh, I'm not sure about this here. Do we need this?", nonverbal_behavior=[furrowed brows, points tentatively at items])
+
+
+Interventionist did a step.
+	(ready_to_continue=true, current_step=3, final_step=true)
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance="I can't... um, what am I looking for again?", nonverbal_behavior=[furrows brow, appears visibly perplexed])
+
+

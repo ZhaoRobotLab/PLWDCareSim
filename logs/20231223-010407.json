@@ -1,0 +1,113 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's the grocery list. Would you please start by finding the Chopped Broccoli on the table?",
+        "nonverbal_behavior": [
+            "Hands grocery list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I see the list. Let's look for that Chopped Broccoli then.",
+        "nonverbal_behavior": [
+            "nods affirmatively",
+            "visibly scans the table for the broccoli"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Great, now can you find the box of Green Peas?",
+        "nonverbal_behavior": [
+            "Gestures gently towards the array of items on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, looking for the Green Peas now.",
+        "nonverbal_behavior": [
+            "Begins to search among the items",
+            "looking focused"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! What's next on the list to find?",
+        "nonverbal_behavior": [
+            "Smiles and provides an encouraging nod"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What was I looking for again?",
+        "nonverbal_behavior": [
+            "looks slightly distressed",
+            "brows furrowed"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're looking for the Green Peas next. Do you see any boxes that might be the right one?",
+        "nonverbal_behavior": [
+            "Offers a receptive gesture",
+            "maintaining a calm appearance"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Ah, the Green Peas\u2026 yes, I think it's this box here.",
+        "nonverbal_behavior": [
+            "points to a box on the table",
+            "appearing focused and calm"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great, you found the Green Peas! Now, could you find the box of Chopped Spinach?",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "gestures towards the table with a nod"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I think I see the box you're talking about. Is this the Chopped Spinach?",
+        "nonverbal_behavior": [
+            "patient nods while reaching for a box on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

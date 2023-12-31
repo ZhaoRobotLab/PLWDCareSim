@@ -1,0 +1,42 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"ParticipantName, let's start the grocery shopping task by finding items on a shopping list. Here is a grocery list. Please select the items on the list from the table. Would you like the instructions repeated?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, yes, let's see... what did that list say again?\", nonverbal_behavior=[looks at the list intensely, furrows brows, appears to be trying to remember])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's check if we have all the items from your list first, shall we?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, okay...but what was the first item again?\", nonverbal_behavior=[furrowed brows, looking around the table tentatively])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "It seems like we need to focus on the first step for a bit longer. Let's help with the shopping list task.\n\n(verbal_utterance=\"Do you see any items from the list on this table? Maybe start with something familiar.\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh yes, I need... um, I'm looking for... beans?\", nonverbal_behavior=[slightly furrowed brows, looking over the table with a hesitant hand movement towards various items])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Given the patient's reaction, it seems that they are still working on the first task of selecting items from the shopping list. We should not move on to the next task (paying for the groceries) until they have completed the current one.\n\nPatient: (forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh yes, I need... um, I'm looking for... beans?\", nonverbal_behavior=[slightly furrowed brows, looking over the table with a hesitant hand movement towards various items])\n\nSince the patient is engaged but forgetful, I would assist with a non-directive cue to help them recall and find the beans.\n\n\"ParticipantName, that's right, beans are one of the items. What other items do you remember we need to find? Can you locate the beans on the table?\" \n\n(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "Patient: (forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Beans... beans... here! And... oh, what else was there?\", nonverbal_behavior=[patting the side of their head gently as if trying to jog memory, then pointing at the can of beans on the table with a slight smile]) \n\nSeeing the patient remember the beans and continue to engage in the task is a positive sign. To encourage further recollection, I might gently suggest:\n\n\"Great job finding the beans! The list also mentioned bread and milk. Do those items ring a bell? Perhaps taking a moment to think about it might help.\" \n\n(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Interventionist: (verbal_utterance=\"Great job finding the beans! The list also mentioned bread and milk. Do those items ring a bell? Perhaps taking a moment to think about it might help.\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "Patient: (forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"I know we need bread... and... milk, right? Why is this so hard to remember?\", nonverbal_behavior=[looking around bewildered, repeated tapping on the table with fingers, sighing])\n\nGiven the patient's growing frustration with their memory, I would provide reassurance and gentle prompts.\n\nInterventionist: \"You're doing very well, ParticipantName. Bread and milk, that's it! Let's find those together, shall we? The bread might be near the beans you found.\"\n\n(ready_to_continue=false)"
+    }
+]

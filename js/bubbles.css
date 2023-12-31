@@ -1,0 +1,84 @@
+body {
+    background-color: #202020;
+}
+.box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    font-family: arial;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); /* Add a drop shadow */
+  }
+  .interventionist {
+    background: #00bf5f;
+  }
+  .patient {
+    background: #00bfb6;
+  }
+  .sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #00bf5f;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #00bf5f;
+    border-bottom: 10px solid transparent;
+    right: -20px;
+    top: 6px;
+  }
+  .sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    left: -20px;
+    top: 6px;
+  }
+
+  .typing-animation {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 0.5s steps(10, end);
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  /* Make nonverbal-action class italic*/
+    .nonverbal-action {
+        font-style: italic;
+        font-weight: 450;
+        font-size: 0.8em
+    }
+
+    #message-container {
+        height: 80vh; /* 80% of the viewport height */
+        width: calc(100% - 20px); /* 100% of the viewport width minus a little margin on each side */
+        max-width: 600px; /* Set a maximum width for the message container */
+        overflow-y: auto;
+        background-color: #f2f2f2; /* Light gray background color */
+        border: 1px solid #ccc; /* Light gray border */
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px auto; /* Center the message container horizontally */
+        box-sizing: border-box; /* Include padding and border in the total width/height */
+      }
+      .icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 5px; /* Adjust the padding as needed */
+        font-size: 1.5em; /* Adjust the font size as needed */
+      }
+      

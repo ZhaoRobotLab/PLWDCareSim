@@ -1,0 +1,66 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"ParticipantName, let's start the grocery shopping task by finding items on a shopping list. Here is the grocery list. Can you select the items from the table?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, what am I looking for again?\", nonverbal_behavior=[furrowed brows, a slight head shake, looking around the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You are looking for the items on this grocery list. Can you find the bread?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh dear, bread... I just...umm...what am I looking for again?\", nonverbal_behavior=[furrowed brows, looking around aimlessly, hands trembling slightly])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Could you check the list one more time to see which items you might need to find?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"I just looked at this... where did I put that bread?\", nonverbal_behavior=[furrowed brows, shuffling items on the table, repeated patting of pockets])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "It seems that you might be having a bit of trouble with the list. Don't worry; we're not in a rush. Take a moment to look at the list in your hand. Can you tell me what the first item is? (ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=no, verbal_utterance=\"Oh, this... I can't make out what this says.\", nonverbal_behavior=[furrowed brow, a slight shake of the head, appears disoriented])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, what's this... Bread, is it? I just can't seem to remember...\", nonverbal_behavior=[furrowed brows, looking intently at the list, repeated head shaking])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "It seems like you're a bit puzzled with the list. Is there something on it that seems familiar to you? (verbal_utterance=\"It seems like you're a bit puzzled with the list. Is there something on it that seems familiar to you?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Um, I know I should know this... is it... milk?\", nonverbal_behavior=[furrowed brows, repeatedly tapping the list, mild look of distress])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "It sounds like you may be a bit confused with the grocery list. Let's not worry about the items for the moment. Here's the list in front of you; take your time to look over it. Do any of the items on the list look familiar to you? Maybe something you enjoy? \n\n(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Nothing looks familiar... I don't understand this,\" nonverbal_behavior=[furrowed brows, looking around aimlessly, holding list loosely])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "It seems like the patient is having difficulty with the task and does not feel ready to proceed to the next step just yet. I will offer some non-directive assistance to help the patient with the current task of selecting items from the grocery list.\n\n(verbal_utterance=\"Take your time. Do any of the items on this list look familiar to you?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Milk...do we need milk?\", nonverbal_behavior=[looking over the list multiple times, occasional furrowing of the brow])"
+    }
+]

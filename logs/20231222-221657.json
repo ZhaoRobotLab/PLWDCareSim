@@ -1,0 +1,46 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Could you please start by picking up the box of Chopped Broccoli from the table?",
+        "nonverbal_behavior": [
+            "Points to the Chopped Broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The box? Oh, these green things?",
+        "nonverbal_behavior": [
+            "looks at the table with a puzzled expression",
+            "slowly reaches for the box"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's the chopped broccoli. Now, can you pick up the box of green peas, please?",
+        "nonverbal_behavior": [
+            "Points to the box of green peas"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The peas... Is it this one here?",
+        "nonverbal_behavior": [
+            "looks intently at various items on the table",
+            "appears slightly perplexed but makes an attempt to identify the right box"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

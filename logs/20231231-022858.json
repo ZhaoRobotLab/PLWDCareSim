@@ -1,0 +1,75 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start the grocery shopping task. Here's the list. Can you find the items on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, let's see. I'll start looking for the items on the list.",
+        "nonverbal_behavior": [
+            "patient nods",
+            "takes the list",
+            "and begins to search for items"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Can you find the box of chopped broccoli next?",
+        "nonverbal_behavior": [
+            "Smiles and nods encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I can find the broccoli.",
+        "nonverbal_behavior": [
+            "Nods in response",
+            "begins searching for the item"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great! Now, can you find the green peas next?",
+        "nonverbal_behavior": [
+            "Smiles and nods encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying, but it's a bit hard to find.",
+        "nonverbal_behavior": [
+            "furrows brow",
+            "looks around with slight confusion"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

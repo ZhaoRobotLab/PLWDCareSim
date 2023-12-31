@@ -1,0 +1,92 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's begin our shopping task. Here is your grocery list with the items we need. Can you take the first item, which is the Chopped Broccoli, from the table?",
+        "nonverbal_behavior": [
+            "Provides grocery list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE)"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Ah, the list. What was I getting again?",
+        "nonverbal_behavior": [
+            "Stares blankly at the list",
+            "looks around the room seemingly for cues"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Do any of the names on the list look familiar to you?",
+        "nonverbal_behavior": [
+            "Offer a pen to point out items on the list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE)"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, this one here... I know... broccoli? Yes, that\u2019s something I remember, but I can't seem to find it.",
+        "nonverbal_behavior": [
+            "Scans the table with intent",
+            "touching different items lightly",
+            "looking puzzled"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you show me what you've found? Maybe there's something that looks like a small tree?",
+        "nonverbal_behavior": [
+            "Points gently to the area where the broccoli is located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE)"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I've found something, but I'm not sure if this is it. Is this the small tree?",
+        "nonverbal_behavior": [
+            "A slight frown of concentration",
+            "holds up a packet that resembles broccoli"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, you've got it! That does look like a small tree. Can you find another item on the list that's green and round, like little balls?",
+        "nonverbal_behavior": [
+            "Nods affirmatively",
+            "smiles to reinforce their correct choice"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE)"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, items... yes, let me see. Green and round, you said?",
+        "nonverbal_behavior": [
+            "looking attentively at the grocery list",
+            "touching each item as if trying to recognize them"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

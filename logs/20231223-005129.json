@@ -1,0 +1,115 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's begin our shopping task. Here's the list of items we need. Could you please start by finding the Chopped Broccoli?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh dear, what was I looking for again?",
+        "nonverbal_behavior": [
+            "Patient looks around seemingly aimless",
+            "squints at the shelf"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Would you like me to go over the list with you again?",
+        "nonverbal_behavior": [
+            "Gestures toward the grocery list in participant's hands",
+            "offering a gentle smile to convey patience and reassurance"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, yes please, that would help. It's hard to keep it all straight in my head.",
+        "nonverbal_behavior": [
+            "Looks concerned",
+            "nods gratefully for the offered help"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Do you see any vegetables on the table that are also on your list?",
+        "nonverbal_behavior": [
+            "Gestures towards the table with the grocery items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I think this one, broccoli, right?",
+        "nonverbal_behavior": [
+            "nods head toward the table",
+            "attempts to match the item with the list"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you found the broccoli. What's next on the list that you see here on the table?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "points lightly to the grocery list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Hmm, let's see. Oh, the broccoli! What was the next thing again?",
+        "nonverbal_behavior": [
+            "scratching head",
+            "looking back and forth from the list to the table with a perplexed expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well with the broccoli. Can you find the box of green peas next?",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "points subtly to the area where the green peas might be"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh... the green peas. Yes, I think I know where those are.",
+        "nonverbal_behavior": [
+            "Patient nods slowly",
+            "scanning the table uncertainly"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

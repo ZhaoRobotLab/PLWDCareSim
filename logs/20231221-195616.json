@@ -1,0 +1,91 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you please pick up the box of Chopped Broccoli from the table?",
+        "nonverbal_behavior": [
+            "Points to the location of the Chopped Broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The box...Chopped Broccoli?",
+        "nonverbal_behavior": [
+            "Looks around the table with a puzzled expression",
+            "moves hands uncertainly"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's the one. You found the Chopped Broccoli. Can you find the next one, Green Peas?",
+        "nonverbal_behavior": [
+            "Nods in approval and smiles encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The Green Peas? I remember seeing them...",
+        "nonverbal_behavior": [
+            "looks around the room",
+            "appears mildly confused but not upset"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's right, the Green Peas are next. Do you see them on the table?",
+        "nonverbal_behavior": [
+            "Points gently towards the area where the Green Peas are located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, um, I... Where are the peas again?",
+        "nonverbal_behavior": [
+            "Looks around confusedly",
+            "scratches head",
+            "appears somewhat distressed"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "yes,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. The Green Peas are right next to the Broccoli. Can you see them?",
+        "nonverbal_behavior": [
+            "Gestures gently towards the area where the Green Peas are located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, yes, the peas... where did they go? I had them just a moment ago.",
+        "nonverbal_behavior": [
+            "looks around the table with a slightly puzzled expression",
+            "then gazes at the spot near the broccoli"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

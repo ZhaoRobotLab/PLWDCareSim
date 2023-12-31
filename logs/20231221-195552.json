@@ -1,0 +1,48 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's the grocery list with the items we need: chopped broccoli, green peas, chopped spinach, and broccoli spears. Could you please pick up the first item from the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The... broccoli? Which one was that again?",
+        "nonverbal_behavior": [
+            "Looks at the list attentively",
+            "appears slightly puzzled",
+            "points hesitantly at the items on the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're looking for the box that says 'Chopped Broccoli' on it, just like it's written here on the list. See, this one right here.",
+        "nonverbal_behavior": [
+            "Points to the correct box of Chopped Broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "This one? Oh, chopped... what was it again?",
+        "nonverbal_behavior": [
+            "scratches head",
+            "looks at the list with narrowed eyes",
+            "repeatedly glances between the list and the boxes"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

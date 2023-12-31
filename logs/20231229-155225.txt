@@ -1,0 +1,41 @@
+SimManager initialized at 20231229-155225
+Interventionist did a step.
+	verbal_utterance="Let's start the grocery shopping task. Here's the list. Can you find the items on this table?", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false, action_taken=NONE
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="What was the first item again?", nonverbal_behavior=[looks at the list intently, appears slightly puzzled])
+
+
+Interventionist did a step.
+	verbal_utterance="The first item we're looking for is a box of Chopped Broccoli. Can you see it on the table?", nonverbal_behavior=[Points to the table where the groceries are laid out], ready_to_continue=false, current_step=0, final_step=false, action_taken=VERBAL_DIRECTIVE
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="Um, I think I saw it... is this the one?", nonverbal_behavior=[scratches head, looks at the table with a puzzled expression])
+
+
+Interventionist did a step.
+	verbal_utterance="Yes, that's the Chopped Broccoli. Now, can you find the Green Peas?", nonverbal_behavior=[Nods affirmatively, smiles to encourage confidence], ready_to_continue=false, current_step=0, final_step=false, action_taken=VERBAL_DIRECTIVE
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="I got the broccoli... what was the next one again?", nonverbal_behavior=[looks around the table with a puzzled expression, scratching head])
+
+
+Interventionist did a step.
+	verbal_utterance="You're doing well. Now, can you find the box of Green Peas?", nonverbal_behavior=[Nods encouragingly, points gently towards the area where the Green Peas might be], ready_to_continue=false, current_step=0, final_step=false, action_taken=VERBAL_DIRECTIVE
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="Oh dear, I know I just picked up the broccoli... Green Peas... um, can you help me? Where are they again?", nonverbal_behavior=[Looks around the table with a puzzled expression, scratching head])
+
+
+Interventionist did a step.
+	verbal_utterance="You're doing great. Now, let's find the Green Peas. They should be right there on the table.", nonverbal_behavior=[Points to the area on the table where the Green Peas are located], ready_to_continue=false, current_step=0, final_step=false, action_taken=VERBAL_DIRECTIVE
+
+
+Patient did a step.
+	(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance="I'm sorry, could you remind me what the Green Peas look like?", nonverbal_behavior=[looks around the table with a puzzled expression, scratches head])
+
+

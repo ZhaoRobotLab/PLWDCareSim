@@ -1,0 +1,25 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Could you please pick up a box of Chopped Broccoli from the table?",
+        "nonverbal_behavior": [
+            "Point to the box of Chopped Broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the broccoli you need?",
+        "nonverbal_behavior": [
+            "The patient looks attentively at the box",
+            "then at you",
+            "seeking reassurance"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(observation: The participant looks at the grocery list but seems a bit unsure where to start. They pick up an item from the table that is not on the list.)\n\n(forgetfulness_status=moderate, frustration_status=low, anger_status=none, engagement_status=moderate, verbal_utterance=\"I think this is on the list...\", nonverbal_behavior=slight confusion)\n\n(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(observation: The participant is trying to remember the items they have just looked at on the grocery list. They put the item back and then pick up another, still not on the list, and look around, seemingly searching for something.)\n\n(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Where did I put that...other thing?\", nonverbal_behavior=furrowed brows and a perplexed look)\n\n(ready_to_continue=true)"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "ParticipantName, now that you have selected the items, it's time to pay for them. Here is the receipt with the total amount, and this is the wallet with money. Take your time to count out the exact amount needed for the groceries. If you need any help, I'm right here. Would you like the instructions repeated or any assistance with this task?"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"How much do I give again?\", nonverbal_behavior=[fumbling with the wallet, furrowed brows signaling concentration]) \n\n(ready_to_continue=yes)"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Patient: Can you remind me what the total on the receipt is? I'm trying to figure out how much to give you.\n\n(forgetfulness_status=yes, frustration_status=low, anger_status=no, engagement_status=moderate, verbal_utterance=\"Can you remind me what the total on the receipt is? I'm trying to figure out how much to give you.\", nonverbal_behavior=looking at the receipt and wallet with determination)\n\n(ready_to_continue=true)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "Certainly, ParticipantName. The total amount for your groceries is $45.50. You can use the bills and coins in the wallet to count out the money. Take your time and don't rush; it's important to do it at your own pace. If you are unsure or need help at any point, just let me know, and I can assist you.\n\n(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Is this the right amount?\" while holding out some money, nonverbal_behavior=fingers slowly counting the bills, looking for reassurance)\n\n(ready_to_continue=true)"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "That's a good start, ParticipantName. You're doing well. Let's check the amount together, shall we? How many dollars do you have there?\n\n(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"I think I have...?\", nonverbal_behavior=holding money out towards interventionist, expression of uncertainty)\n\n(ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "Of course, let's count it together. Here, this is a twenty-dollar bill, and these are ones. Can you try to put together the exact amount the receipt says, which is $18.75?\n\n(forgetfulness_status=yes, frustration_status=low, anger_status=no, engagement_status=high, verbal_utterance=\"So, I give you this twenty... and, um, where are the coins?\", nonverbal_behavior=participant begins to hand over a twenty-dollar bill but pauses, looking for coins)\n\n(ready_to_continue=true)"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Patient: You're on the right track with the twenty-dollar bill. Now, how about we find the coins together to make up the rest of the amount? Look in the wallet and see if you can find some quarters to add to the twenty.\n\n(forgetfulness_status=yes, frustration_status=medium, anger_status=no, engagement_status=high, verbal_utterance=\"Here are some coins... Is this enough?\", nonverbal_behavior=patient picks up a few quarters and shows them, still looking somewhat confused but willing to proceed)\n\n(ready_to_continue=true)|||Context:current_step=2 final_step=true The last shopping task is to pack the groceries. \n                Here are bags for your groceries.\n                Please pack the items in a way that will be easy for you to carry home.\n                Would you like to hear the instructions one more time?"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=moderate, verbal_utterance=\"Do I need to pack these now?\", nonverbal_behavior=frowning, slowly touches the groceries as if unsure what to do next)\n\n(ready_to_continue=yes)"
+    }
+]

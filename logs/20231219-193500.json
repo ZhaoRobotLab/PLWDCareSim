@@ -1,0 +1,42 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Begin the task.\", nonverbal_behavior=[smile], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes,\nfrustration_status=no,\nanger_status=no,\nengagement_status=yes,\nverbal_utterance=\"What was I supposed to do first again?\",\nnonverbal_behavior=[furrows brow slightly, looks expectantly towards interventionist])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"I'll help you with that. Your task is to find items from this grocery list on the table.\", nonverbal_behavior=[gentle tone, slow gestures to indicate the list and the table], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes,\nfrustration_status=no,\nanger_status=no,\nengagement_status=yes,\nverbal_utterance=\"What am I looking for again?\",\nnonverbal_behavior=[looks puzzled, scratches head, gazes at the table without picking anything up])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You are looking for the items on this list. Just choose the items that match the list from the table.\", nonverbal_behavior=[nodding, making eye contact], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes,\nfrustration_status=no,\nanger_status=no,\nengagement_status=yes,\nverbal_utterance=\"What was I looking for again?\",\nnonverbal_behavior=[furrowed brow, slight frown, looking around the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You are looking for the items on the grocery list. Simply pick them from the table.\", nonverbal_behavior=[nodding, warm smile], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes,\nfrustration_status=no,\nanger_status=no,\nengagement_status=yes,\nverbal_utterance=\"Oh, what am I looking for again?\",\nnonverbal_behavior=[furrowed brows, slightly tilted head, searching gaze across the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're looking for the items on this shopping list. Can you pick each one from the table?\", nonverbal_behavior=[gentle tone, patient expression], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes,\nfrustration_status=no,\nanger_status=no,\nengagement_status=yes,\nverbal_utterance=\"Oh, let's see... what was I looking for again?\",\nnonverbal_behavior=[furrowed brow, slight frown, looking from the list to the table with uncertainty.])"
+    }
+]

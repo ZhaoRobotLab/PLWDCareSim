@@ -1,0 +1,42 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's begin our grocery shopping task. Here's your list. Could you please start by finding the first two items from the table?\", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, let me see... bread and milk? Right?\", nonverbal_behavior=[Looks at the list intently, appears slightly confused but attempting to focus])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You've got the bread, that's great! What's the next item on the list?\", nonverbal_behavior=[Smiles encouragingly, nods to affirm they have the correct item], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"The... oh dear, where's my list? I had it just now...\", nonverbal_behavior=[looks around puzzled, patting pockets in search for the list])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great. Now, let's pay for the groceries. Can you take a look in the wallet and see if you have enough money for what's on the receipt?\", nonverbal_behavior=[Hands over the receipt and the wallet, points to the total amount], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=no, verbal_utterance=\"This is hard. Do I have enough? I can't tell...\", nonverbal_behavior=[fumbles with wallet, looks bewildered, avoids eye contact])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"It's okay, you're doing just fine. Would it help if we went through the wallet together to find the right amount?\", nonverbal_behavior=[Gesture towards the wallet and receipt to initiate teamwork], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, I'm not sure I know how... Can you help me, dear?\", nonverbal_behavior=[Furrowed brows, shaky hands trying to open the wallet, slightly hunched over])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You are doing really well. Let's take it one step at a time. How much does the receipt say we owe?\", nonverbal_behavior=[Gentle smile, maintain a supportive tone], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh dear, umm... how much was it again?\", nonverbal_behavior=[Furrowed brow, looks down at the wallet and the receipt repeatedly, appearing confused])"
+    }
+]

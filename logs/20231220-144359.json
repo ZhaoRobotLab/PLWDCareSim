@@ -1,0 +1,18 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's begin with our grocery shopping task. This is your list. Can you please pick the first item from the table?\", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Um, what should I do with this list again?\", nonverbal_behavior=[patient looks at the list intently, appears puzzled but not distressed])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing well! Now, can you try using the money in the wallet to pay for the items?\", nonverbal_behavior=[Hands wallet to participant, points to the receipt], ready_to_continue=true, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"How much is it again? These numbers are tricky.\", nonverbal_behavior=[scratching head, looking intently at the money, slight frown])"
+    }
+]

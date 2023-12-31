@@ -1,0 +1,69 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's your grocery list. Could you please pick up the Chopped Broccoli from the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant",
+            "points to the table where items are placed"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The chopped what now? Oh, the vegetables, right, right...",
+        "nonverbal_behavior": [
+            "Frowns slightly",
+            "looks around the room",
+            "walks slowly towards the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, the vegetables. Now, can you find the box of Chopped Broccoli on the table?",
+        "nonverbal_behavior": [
+            "Points to the table where the items are located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the broccoli?",
+        "nonverbal_behavior": [
+            "looks at the table with uncertainty",
+            "holds up a different vegetable with a questioning look"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's right, the broccoli. Now, can you also find the box of green peas for me?",
+        "nonverbal_behavior": [
+            "Smile and nod to affirm their correct choice",
+            "gesture towards the area where the green peas may be located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Green... oh, the little round things?",
+        "nonverbal_behavior": [
+            "Looks around the table with pursed lips",
+            "gently scratches head",
+            "appears mildly confused but still attentive"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

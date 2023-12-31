@@ -1,0 +1,26 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Here is a grocery list, ParticipantName. Can you select the items from the table?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, dear, what was I looking for again?\", nonverbal_behavior=[furrowed brows, shuffling through items haphazardly])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "As the patient has expressed forgetfulness and frustration, it would be appropriate to offer non-directive assistance before proceeding to the next task to ensure they are ready.\n\n(ready_to_continue=false)\n\nOffering a gentle hint might help them remember what they are looking for: \"Sometimes it helps to check what is written on the list. What item do you see first on the list?\""
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"What am I looking for again?\", nonverbal_behavior=[looks down at the list with a furrowed brow, seems puzzled])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Is there a particular item you're trying to find right now?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"I... I am looking for... um, what am I looking for?\", nonverbal_behavior=[furrowed brows, looking intently at the list but with evident confusion])"
+    }
+]

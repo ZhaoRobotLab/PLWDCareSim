@@ -1,0 +1,14 @@
+Let's start the grocery shopping task by finding items on a shopping list.
+Here is a grocery list. Please select the items on the list from the table.
+Would you like the instructions repeated? Or would you like the instructions to be louder?
+I'll read the list for you. We need to find a box of broccoli, a box of green peas, a box of spinach, and a box of green beans. Let's start by looking for the box of broccoli together.
+The next shopping task is to pay for the groceries.
+Here is a receipt for the 4 items and a wallet.
+Use the wallet money to pay the exact amount for the groceries.
+The total cost is $2.82. We need to pay the exact amount using the money in the wallet.
+The next shopping task uses coupons.
+Here are several food coupons in this envelope.
+Check to see if any coupons match the items you purchased.
+Here is your change. Did you get the correct change?
+How much change should you have gotten?
+The shopping task is done. Thank you for your work.

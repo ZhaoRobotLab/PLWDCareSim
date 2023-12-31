@@ -1,0 +1,25 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with the first task. See this grocery list? Please pick up each item from the table, starting with the first one.",
+        "nonverbal_behavior": [
+            "Hands grocery list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the list... um, where do I begin?",
+        "nonverbal_behavior": [
+            "the patient holds the list",
+            "squinting at the items",
+            "appears slightly confused but is trying to focus"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

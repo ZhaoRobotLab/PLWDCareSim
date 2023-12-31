@@ -1,0 +1,328 @@
+SimManager initialized at 20231219-143945
+Interventionist did a step.
+	(verbal_utterance="Let's make sure we have everything we need, ParticipantName. We're going to start by finding the items on this shopping list.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, I see. What are we looking for again?",
+nonverbal_behavior=[Slight frown, holding the shopping list but clearly not reading it.])
+
+
+Interventionist did a step.
+	(verbal_utterance="Let's look at the list together and find the first item, which is bread.", nonverbal_behavior=[nodding, pointing to the bread on the list], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What are we looking for? Oh, bread, bread... where is it?",
+nonverbal_behavior=[furrowed brow, patient appears to be searching around, touching items randomly.])
+
+
+Interventionist did a step.
+	(verbal_utterance="That's right, we're looking for bread. It's on the table in front of you. Look for a loaf that is usually in a bag with a label.", nonverbal_behavior=[nods encouragingly], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Bread? Oh, I... I don't remember where it is.",
+nonverbal_behavior=[slight frown, appears to be searching the table with their eyes])
+
+
+
+Interventionist did a step.
+	(verbal_utterance="That's okay, it's alright to forget sometimes. Let's look for the bread together. It's right there, on the table. Please pick up the loaf of bread.", nonverbal_behavior=[soft, reassuring smile], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, yes, the bread. I keep forgetting where things are.",
+nonverbal_behavior=[Slowly reaches out to the bread, hesitates, then picks up the loaf with a tentative grip.])
+
+
+Interventionist did a step.
+	(verbal_utterance="Well done on finding the bread. What's next on the list that we can find?", nonverbal_behavior=[smile, nodding to acknowledge the patient's success], ready_to_continue=false, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What list? Oh, the shopping, yes. Let's see, um...milk, maybe?",
+nonverbal_behavior=[furrowed brows, looks around uncertainly, light touch on the list])
+
+
+Interventionist did a step.
+	(verbal_utterance="Look at the list and find the milk, please.", nonverbal_behavior=[gentle tone], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Is this the milk? Oh, no, that's not right... umm, where's the milk again?",
+nonverbal_behavior=[furrowed brows, looking around the room, slight hand tremor as they reach for various items])
+
+
+Interventionist did a step.
+	(verbal_utterance="Yes, that's the milk. Well done! Now, let's look for the next item on the list.", nonverbal_behavior=[encouraging smile], ready_to_continue=true, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What was it again?..." ,
+nonverbal_behavior=[furrowed brow, appears to be trying to remember, slight shake of head])
+
+
+Interventionist did a step.
+	(verbal_utterance="Would you like the instructions repeated? Or would you like the instructions to be louder?", nonverbal_behavior=[nodding, maintaining eye contact], ready_to_continue=false, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What was I looking for again?",
+nonverbal_behavior=[furrowed brows, looking around in a puzzled way])
+
+
+Interventionist did a step.
+	(verbal_utterance="Let's look for the milk. It's one of the items on your list.", nonverbal_behavior=[gentle tone, maintaining eye contact], ready_to_continue=false, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Milk... Oh, I think it was... Is this it? No, no, that's not right. Where did they put the milk?",
+nonverbal_behavior=[furrowed eyebrows, looking around the room seeming a bit lost])
+
+
+
+Interventionist did a step.
+	(verbal_utterance="Please try to find the milk. It's usually in a carton or bottle.", nonverbal_behavior=[nodding encouragingly], ready_to_continue=false, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Is it this one? The carton with the picture on it?",
+nonverbal_behavior=[Looking intently at various items on the table, handling a carton with slight hesitation])
+
+
+Interventionist did a step.
+	(verbal_utterance="Yes, that's the milk. Well done for finding it!", nonverbal_behavior=[smiling, nodding], ready_to_continue=true, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Milk... milk. Oh, here it is!",
+nonverbal_behavior=[brief moment of furrowed brows as they search, then a smile as they find the milk])
+
+
+Interventionist did a step.
+	(verbal_utterance="Now that we have the groceries, let's move to the checkout to pay for the items.", nonverbal_behavior=[calm, open body language], ready_to_continue=true, current_step=3, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, we're paying now? Alright.",
+nonverbal_behavior=[looks a bit bewildered but compliant, slowly starts moving towards the checkout])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please use the money from the wallet to pay for these items.", nonverbal_behavior=[gentle smile, nodding encouragingly], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh dear, what did I do with the money...",
+nonverbal_behavior=[furrowed brow, searching through wallet])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please look in the wallet for money or a card to use for payment.", nonverbal_behavior=[gentle, encouraging tone], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What should I do with this again?",
+nonverbal_behavior=[looks at the wallet, appears hesitant, holds the money but seems unsure of the next step])
+
+
+Interventionist did a step.
+	(verbal_utterance="Begin the task.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh dear, what was I doing?",
+nonverbal_behavior=[Looks around puzzled, brows furrowed slightly.])
+
+
+Interventionist did a step.
+	(verbal_utterance="You finished shopping, now it's time to pay for the items. Count out the money from the wallet to match the amount on the receipt.", nonverbal_behavior=[gentle tone, non-threatening posture], ready_to_continue=false, current_step=4, final_step=true)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="This is... how much do I give?", 
+nonverbal_behavior=[Looking puzzled, fumbling with the money, slightly furrowed brows])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please hand me the amount on the receipt from your wallet.", nonverbal_behavior=[make a gesture of receiving payment], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, let me see here, the receipt... how much was it again?",
+nonverbal_behavior=[furrowed brows, rummaging through the wallet, a slight look of concentration])
+
+
+Interventionist did a step.
+	(verbal_utterance="Here is a receipt for the 4 items and a wallet.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh dear, I think...how much do I give you?",
+nonverbal_behavior=[confusion evident on the face, hands fumbling through the wallet])
+
+
+Interventionist did a step.
+	(verbal_utterance="You have a receipt and a wallet, now please pay for the items.", nonverbal_behavior=[nodding to encourage understanding], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, um�let me see, how much� where is my money?",
+nonverbal_behavior=[fumbles with wallet, looks concerned, brows furrowed as he/she rummages through the contents])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please use the money in the wallet to pay for the items on the receipt.", nonverbal_behavior=[gentle guiding hand gesture towards the wallet], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, is this how much I need to give you?",
+nonverbal_behavior=[puzzled expression, handling wallet and contents with uncertainty])
+
+
+Interventionist did a step.
+	(verbal_utterance="Let's match the amount on the receipt with the money in the wallet.", nonverbal_behavior=[nodding encouragingly], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="How much do I owe you?",
+nonverbal_behavior=[slightly furrowed brow, looking into the wallet, then at the interventionist for assistance])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please pay for the items using the money in the wallet.", nonverbal_behavior=[neutral expression, maintaining eye contact], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Okay, uh... I need to pay, right? How much... where is the... oh, the receipt!",
+nonverbal_behavior=[furrowed brows briefly, looking at wallet and then receipt, a slight shake of the head])
+
+
+Interventionist did a step.
+	(verbal_utterance="Well done on finding the groceries. Now, please give the amount listed on the receipt from your wallet.", nonverbal_behavior=[Gentle smile], ready_to_continue=false, current_step=5, final_step=true)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Is this the right amount? I think I have it... I'm not sure.",
+nonverbal_behavior=[furrowed brows, finger counting money, slightly confused expression])
+
+
+Interventionist did a step.
+	(verbal_utterance="Hand me the money that you think matches the total on the receipt.", nonverbal_behavior=[calm, reassuring gesture], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh dear, the numbers are swirling a bit. Is this the right amount for the bread and milk?",
+nonverbal_behavior=[looks puzzled, squinting slightly at the receipt, hands trembling slightly as they hold out the money])
+
+
+Interventionist did a step.
+	(verbal_utterance="Please give me the amount that is written on the receipt from your wallet.", nonverbal_behavior=[smile, gentle tone], ready_to_continue=false, current_step=4, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Um, the receipt... how much was it again?",
+nonverbal_behavior=[puzzled look, fumbling slightly with the wallet and money])
+
+

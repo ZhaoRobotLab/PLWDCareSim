@@ -1,0 +1,94 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's your shopping list. Please pick up the first item, which is a box of chopped broccoli.",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Broccoli... I need to get the broccoli. Where did I put my list?",
+        "nonverbal_behavior": [
+            "Accepts list",
+            "squints at the paper",
+            "appears slightly confused"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're on the right track with the broccoli. Now, can you find the green peas on the table?",
+        "nonverbal_behavior": [
+            "Points to where the green peas are located on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the peas... Um, right... peas...",
+        "nonverbal_behavior": [
+            "looks around the table",
+            "appears momentarily puzzled",
+            "then smiles as they spot the peas"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Great job finding the peas! Now, let's see if you can find the box of chopped spinach.",
+        "nonverbal_behavior": [
+            "Pointing gently towards the area on the table where the spinach is located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Chopped spinach... Spinach... Oh, I used to grow that in my garden.",
+        "nonverbal_behavior": [
+            "Slightly furrowed brows",
+            "reminiscent smile",
+            "wandering gaze searching the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've got the spinach! Now, could you look for the box of Broccoli Spears? It's the last item on your list.",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "points gently towards the direction of the remaining items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the one? The, uh, Broccoli Spears?",
+        "nonverbal_behavior": [
+            "Scratches head",
+            "looks around the table with a perplexed expression"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

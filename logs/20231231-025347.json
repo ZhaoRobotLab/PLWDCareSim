@@ -1,0 +1,77 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with our shopping task. We have a list of items to pick up from the table. Can you find the box of Chopped Broccoli first?",
+        "nonverbal_behavior": [
+            "smiling",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Sure, I can do that. Here's the box of Chopped Broccoli.",
+        "nonverbal_behavior": [
+            "nods affirmatively",
+            "reaches out and picks up the box confidently"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Great job with the Chopped Broccoli! Now, can you find the Green Peas?",
+        "nonverbal_behavior": [
+            "smiling",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I just picked up the broccoli, but... um, what was next again?",
+        "nonverbal_behavior": [
+            "sighing",
+            "showing a slight frown"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well, let's keep going. What do you see next on the list?",
+        "nonverbal_behavior": [
+            "maintains eye contact",
+            "shows a gentle smile"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I see canned tomatoes next on the list. Here they are!",
+        "nonverbal_behavior": [
+            "nods head",
+            "maintains eye contact"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

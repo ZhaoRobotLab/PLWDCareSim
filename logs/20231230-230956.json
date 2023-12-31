@@ -1,0 +1,125 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you show me what you've found from the list so far?",
+        "nonverbal_behavior": [
+            "Observes the participant handling the items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here's what I've gathered from the list.",
+        "nonverbal_behavior": [
+            "Shows items confidently",
+            "maintains eye contact"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. What's the next item you see on your list?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "maintains eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Let's see, the next item on my list is the milk.",
+        "nonverbal_behavior": [
+            "nods in understanding",
+            "looks at the list attentively"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great, you're doing well. What's the next vegetable you can find on the list?",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "maintains eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, let's see... the next vegetable is carrots. I'll get those now.",
+        "nonverbal_behavior": [
+            "Nods in understanding",
+            "reaches out to pick up carrots"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! What's the next item on your list after the carrots?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I'm not sure why I'm so cross. Let me see, after the carrots... is it the tomatoes?",
+        "nonverbal_behavior": [
+            "Furrows brow briefly in frustration",
+            "then relaxes face while trying to recall the list"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "yes",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. What's the next vegetable you see on your list that you haven't picked up yet?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "maintains a calm demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying to remember... It's a bit hard to keep track.",
+        "nonverbal_behavior": [
+            "sighs lightly",
+            "looks away momentarily in thought"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

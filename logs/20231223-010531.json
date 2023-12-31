@@ -1,0 +1,119 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here we have a list of vegetables to gather. Can you please start by picking up the first item?",
+        "nonverbal_behavior": [
+            "Presents the grocery list to the participant",
+            "pointing to the first item on the list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Of course, let me see here. That would be the carrots, right? I\u2019ll start with those.",
+        "nonverbal_behavior": [
+            "nods attentively",
+            "reaches toward the list",
+            "seems focused on the task"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's a great start! Let's keep looking for the items on the list we have.",
+        "nonverbal_behavior": [
+            "Offers a smile and gestures towards the table to encourage continued searching"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I've got the first item. What should I look for next?",
+        "nonverbal_behavior": [
+            "Looking at the grocery list with a slight nod",
+            "showing understanding and readiness to continue"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. Now, can you find the box of Green Peas?",
+        "nonverbal_behavior": [
+            "Smiling",
+            "making eye contact",
+            "nodding in encouragement"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the green peas? Sure, let me see...",
+        "nonverbal_behavior": [
+            "nods in understanding",
+            "scanning the table carefully"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Right, now, which item on the list would you pick up after the green peas?",
+        "nonverbal_behavior": [
+            "Maintains eye contact",
+            "pointing towards the grocery list to encourage looking at the next item"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The green peas, yes. Now let me see... ah, here, the next one should be this can of corn!",
+        "nonverbal_behavior": [
+            "Nods affirmatively after finding the can of corn",
+            "then looks back at the list to confirm"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well! Can you find the next vegetable on the list? It's still in the freezer section.",
+        "nonverbal_behavior": [
+            "Gives an encouraging smile",
+            "points gently towards the area with the freezer items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh dear, I'm not sure which one comes after the peas. Could you help me here?",
+        "nonverbal_behavior": [
+            "A slight frown",
+            "looking perplexed",
+            "a hand hovering over different items"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "yes",
+        "engagement_status": "yes"
+    }
+]

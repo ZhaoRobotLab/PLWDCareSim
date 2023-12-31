@@ -1,0 +1,121 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start the grocery shopping task. Here's the list. Can you find the items on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, let's see. I'll start with the first item on the list.",
+        "nonverbal_behavior": [
+            "Patient takes the list and begins to look for items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What's the next item you're looking for?",
+        "nonverbal_behavior": [
+            "Nods encouragingly as the patient looks at the list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm looking for the pasta now. It should be right here.",
+        "nonverbal_behavior": [
+            "Patient points to the shelf where the pasta is located",
+            "appears calm and focused"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. What's the next item you're looking for?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "maintains a calm and supportive demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm not sure what I should be doing right now.",
+        "nonverbal_behavior": [
+            "Looks around aimlessly",
+            "appears disengaged"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "no"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Could you find the box of Chopped Broccoli on the table?",
+        "nonverbal_behavior": [
+            "Gestures towards the table with the grocery items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I see it. Here's the Chopped Broccoli.",
+        "nonverbal_behavior": [
+            "Patient reaches for the box of Chopped Broccoli confidently"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What's the next item you can find from the list?",
+        "nonverbal_behavior": [
+            "Nods encouragingly as the patient picks up the Chopped Broccoli"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I've got the broccoli. Now, let's see... the next item is canned tomatoes.",
+        "nonverbal_behavior": [
+            "Patient nods back and smiles",
+            "visibly focused on the task at hand"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

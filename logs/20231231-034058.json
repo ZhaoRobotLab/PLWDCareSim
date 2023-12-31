@@ -1,0 +1,78 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with our shopping task. We have a list of items to pick up from the table. Can you find the box of Chopped Broccoli first?",
+        "nonverbal_behavior": [
+            "pointing to the grocery list",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Sure, I see the Chopped Broccoli right here.",
+        "nonverbal_behavior": [
+            "patient reaches for the box of Chopped Broccoli",
+            "maintains eye contact",
+            "appears calm"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've got the Chopped Broccoli. Now, can you find the Green Peas?",
+        "nonverbal_behavior": [
+            "nodding",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here are the Green Peas.",
+        "nonverbal_behavior": [
+            "smiling",
+            "holding up the Green Peas for confirmation"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, well done! Now, can you find the Chopped Spinach?",
+        "nonverbal_behavior": [
+            "nodding",
+            "maintaining eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here's the Chopped Spinach!",
+        "nonverbal_behavior": [
+            "smiling",
+            "making direct eye contact"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

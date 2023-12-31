@@ -1,0 +1,90 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start the grocery shopping task. Here's the list. Can you find the items on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, let's see. I think I can find these items.",
+        "nonverbal_behavior": [
+            "patient nods and begins to look over the table for items"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Which item would you like to pick up first from the list?",
+        "nonverbal_behavior": [
+            "Smiles and maintains a calm demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_NON_DIRECTIVE,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'll start with the apples.",
+        "nonverbal_behavior": [
+            "Nods confidently",
+            "reaches for the apples"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Now, what's the next item on your list that you can find on the table?",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "gestures towards the grocery list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Let's see, I think the next one is this can of beans here.",
+        "nonverbal_behavior": [
+            "Points to the item on the table",
+            "looks pleased with finding the correct item"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Now, what's the next vegetable on your list that you need to find?",
+        "nonverbal_behavior": [
+            "Smiles and maintains a supportive tone"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I think the next vegetable I need is the carrots. Here they are!",
+        "nonverbal_behavior": [
+            "Nods confidently",
+            "reaches for the carrots on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

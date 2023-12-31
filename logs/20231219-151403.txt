@@ -1,0 +1,44 @@
+SimManager initialized at 20231219-151403
+Interventionist did a step.
+	(verbal_utterance="ParticipantName, we're going to do a grocery shopping task. Let's start by looking for the items listed here.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What should I be looking for again?",
+nonverbal_behavior=[Looks pensive, slightly confused, brows furrowed as they peer at the list.])
+
+
+Interventionist did a step.
+	(verbal_utterance="We're looking for items on the grocery list. Let's start by finding a carton of milk. It's on the table in front of you.", nonverbal_behavior=[gentle smile, pointing to the table], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, the milk...", 
+nonverbal_behavior=[The patient's gaze slowly moves towards the table, movements are tentative with slight hesitation.])
+
+
+Interventionist did a step.
+	(verbal_utterance="Yes, that's right. Please find the milk and put it in your shopping basket.", nonverbal_behavior=[nod and smile encouragingly], ready_to_continue=false, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Is this the milk? Oh, yes, I see it now.",
+nonverbal_behavior=[Stares at the table for a moment, looking unsure, then reaches for the milk and places it in the basket.])
+
+
+Interventionist did a step.
+	(verbal_utterance="That's right, you found the milk. Now, can you find the bread?", nonverbal_behavior=[nods encouragingly], ready_to_continue=true, current_step=2, final_step=false)
+
+

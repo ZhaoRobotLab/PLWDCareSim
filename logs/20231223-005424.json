@@ -1,0 +1,121 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's get started on the grocery shopping task. Here's your list. Could you begin by finding the first item on the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the list. Um, what was the first item again?",
+        "nonverbal_behavior": [
+            "holding the list tentatively",
+            "looking around the table with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you find a box of vegetables that starts with the letter 'B'?",
+        "nonverbal_behavior": [
+            "Gestures encouragingly towards the table with the items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Vegetables with 'B'? Broccoli, maybe?",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "scratching head",
+            "looking around in confusion"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, broccoli is one of the items. Do you see any boxes that might be chopped broccoli?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "smiles",
+            "and points subtly towards the vegetable section on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Broccoli... Oh, there it is. I think that's the one with the 'B', isn't it?",
+        "nonverbal_behavior": [
+            "nods slowly",
+            "looks at the table with a concentrated gaze",
+            "reaches for the box of chopped broccoli"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, well done on finding the broccoli. What's the next item you can see on the list?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "maintains eye contact",
+            "points gently to the grocery list in the patient's hand"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, right, the list. Let me see... is it milk?",
+        "nonverbal_behavior": [
+            "scratches head",
+            "looks around the room",
+            "visibly trying to focus"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well focusing on the list. Let's look for vegetables first. What does the list say right after the chopped broccoli?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "points gently towards the list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh dear, let's see... Vegetables after broccoli? Is it carrots?",
+        "nonverbal_behavior": [
+            "Scratches head",
+            "looks at the list intently",
+            "appears slightly confused but trying to focus"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

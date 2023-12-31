@@ -1,0 +1,51 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Please take a look at this grocery list and pick up the first item from the table.",
+        "nonverbal_behavior": [
+            "Hands grocery list to participant",
+            "points to table with items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, let me see here,",
+        "nonverbal_behavior": [
+            "patient nods",
+            "reaches for the grocery list",
+            "and starts walking towards the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What's the first item you see on the list that you can find on the table?",
+        "nonverbal_behavior": [
+            "Observes the participant as they approach the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here's the milk, it's the first item on the list.",
+        "nonverbal_behavior": [
+            "Picks up the milk from the table confidently"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

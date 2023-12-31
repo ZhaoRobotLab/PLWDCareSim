@@ -1,0 +1,121 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "We're going to pick up some items from this list. Can you start by finding the chopped broccoli?",
+        "nonverbal_behavior": [
+            "Points to the table where the items are"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Sure, I see the broccoli right here.",
+        "nonverbal_behavior": [
+            "patient nods and reaches for the broccoli on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've got the broccoli. Now, can you find the box of green peas?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I see the peas here.",
+        "nonverbal_behavior": [
+            "nods in understanding",
+            "reaches for the box of green peas"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've got the peas. Now, can you find the box of chopped spinach?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here's the spinach.",
+        "nonverbal_behavior": [
+            "nods in acknowledgment",
+            "maintains eye contact"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great, you're doing well. Now, can you find the box of Broccoli Spears?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, this is a bit much, isn't it?",
+        "nonverbal_behavior": [
+            "Shows a slight frown",
+            "takes a deep breath"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "yes",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Now, can you find the box of Broccoli Spears?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "maintains eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Can you tell me what the Broccoli Spears look like again?",
+        "nonverbal_behavior": [
+            "looks around the table with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

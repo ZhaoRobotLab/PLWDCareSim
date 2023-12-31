@@ -1,0 +1,18 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's start the grocery shopping task. Here's the list. Can you find the first two items on this table?\", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Thank you for the list. Now, what am I looking for...?\", nonverbal_behavior=[Stares intently at the list, slightly furrowed brow, looks around the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Can you find and pick up the first item on the list from the table?\", nonverbal_behavior=[Points to the table where the items are], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, what am I looking for again?\", nonverbal_behavior=[looking around the table, appears slightly bewildered, touches items tentatively])"
+    }
+]

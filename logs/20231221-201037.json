@@ -1,0 +1,118 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's begin by picking up some grocery items. Could you please grab the first item on this list from the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What was I looking for again?\u201d",
+        "nonverbal_behavior": [
+            "looks at the list intently",
+            "furrows brow",
+            "appears to be trying to remember"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're looking for a box of Chopped Broccoli. Can you pick it up from the table?",
+        "nonverbal_behavior": [
+            "Points gently to the area where the Chopped Broccoli is located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the one? I think... I think it's broccoli.",
+        "nonverbal_behavior": [
+            "Patient squints at the items on the table",
+            "picks up a box",
+            "and shows it hesitantly"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's right, you've found the box of Chopped Broccoli. Now, can you find the box of Green Peas?",
+        "nonverbal_behavior": [
+            "Nods affirmatively",
+            "points gently to the next item on the list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the green peas?",
+        "nonverbal_behavior": [
+            "looks at the item and then back at the list",
+            "appears uncertain"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Does the picture on the box match the one on the list next to 'Green Peas'?",
+        "nonverbal_behavior": [
+            "Gestures to the grocery list and then to the box the patient is holding"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the green peas?",
+        "nonverbal_behavior": [
+            "Shows a puzzled expression",
+            "glances back and forth between the box and the shopping list"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Does the picture on the box match the one next to the Green Peas on your list?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "points gently to the item list on the grocery list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I think so. Yes, this looks right. But...what was I doing with it again?",
+        "nonverbal_behavior": [
+            "Head tilts in contemplation",
+            "briefly touches the box",
+            "then the list",
+            "a soft smile with a perplexed look"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

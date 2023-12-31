@@ -1,0 +1,66 @@
+SimManager initialized at 20231219-151737
+Interventionist did a step.
+	(verbal_utterance="ParticipantName, today we're going to do a grocery shopping task. Let's start by finding items on the shopping list.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Oh, what did you say we're looking for?",
+nonverbal_behavior=[slighted furrowed brow, mild look of confusion, head tilted slightly as if trying to recall])
+
+
+Interventionist did a step.
+	(verbal_utterance="We are looking for items on a grocery list. Let's find the bread first.", nonverbal_behavior=[gentle tone, maintains eye contact], ready_to_continue=true, current_step=1, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Where do we start? What are we looking for again?",
+nonverbal_behavior=[wrinkled brow, looks around the grocery aisle as if searching for something])
+
+
+Interventionist did a step.
+	(verbal_utterance="Let's look at the list together and find the first item, which is milk. Can you find the milk?", nonverbal_behavior=[smile, gentle pointing towards the grocery items], ready_to_continue=false, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Milk... milk... where did I see that? Oh, here it is!",
+nonverbal_behavior=[furrowed brows while searching, then brightening upon finding the item])
+
+
+Interventionist did a step.
+	(verbal_utterance="Great job finding the milk. Now, can you look for the bread and add it to our basket?", nonverbal_behavior=[nod], ready_to_continue=true, current_step=2, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Is the bread... uh, where did we find it last time?",
+nonverbal_behavior=[furrowed brows, seems slightly confused but focused on the task])
+
+
+Interventionist did a step.
+	(verbal_utterance="Now, let�s go to the checkout counter to pay for the items you found.", nonverbal_behavior=[nodding, calm facial expression], ready_to_continue=true, current_step=3, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Do I... do I need to pay, dear? Where... where's the counter?",
+nonverbal_behavior=[furrowed brows, slightly confused expression but makes an effort to look around for the checkout counter])
+
+

@@ -1,0 +1,375 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with picking up some groceries. Here's your list, and we'll begin with the first item.",
+        "nonverbal_behavior": [
+            "handing over the list with a gentle smile"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Thank you, I've got the list. What's the first item we're looking for?",
+        "nonverbal_behavior": [
+            "nods appreciatively",
+            "maintains eye contact"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "The first item we're looking for is a box of Chopped Broccoli.",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding in encouragement"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I know what broccoli looks like, but where do they keep it here?",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "looking around the store with slight impatience"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's look for the chopped broccoli in the frozen section, right over there.",
+        "nonverbal_behavior": [
+            "pointing towards the frozen section"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, to the frozen section we go. I see the broccoli!",
+        "nonverbal_behavior": [
+            "walking confidently towards the frozen section",
+            "looking at the shelves"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you found the broccoli. Now, let's look for the green peas next.",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding in approval"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Where should I look for the green peas?",
+        "nonverbal_behavior": [
+            "looking around the frozen section with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. What other vegetables do you see here next to the broccoli?",
+        "nonverbal_behavior": [
+            "smiling",
+            "maintaining a calm and friendly demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I see some carrots, and oh, there are the green peas!",
+        "nonverbal_behavior": [
+            "frowning slightly",
+            "but trying to maintain composure"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "yes",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you found the green peas. Now, let's look for the chopped spinach next.",
+        "nonverbal_behavior": [
+            "smiling face",
+            "nodding in approval"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, where was that again? Can you help me find the spinach?",
+        "nonverbal_behavior": [
+            "looking around the frozen section with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing really well, let's look for the spinach together. It should be right near the peas you just found.",
+        "nonverbal_behavior": [
+            "smiling",
+            "guiding gesture towards the area with peas"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, here it is, the chopped spinach!",
+        "nonverbal_behavior": [
+            "points to the spinach",
+            "smiles",
+            "and nods in recognition"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you found the chopped spinach. Now, let's look for the broccoli spears.",
+        "nonverbal_behavior": [
+            "smiling",
+            "giving a thumbs up"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh dear, did we already pick up the broccoli? I can't seem to remember.",
+        "nonverbal_behavior": [
+            "looking around with a puzzled expression",
+            "scratching head"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You've got a good memory! We have the broccoli already. Now, let's look for the broccoli spears next.",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding to affirm"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 3
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I see! We already have the chopped broccoli. Now, let's find those broccoli spears.",
+        "nonverbal_behavior": [
+            "nods understandingly",
+            "moves towards the broccoli spears"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You've done a great job selecting the items!",
+        "nonverbal_behavior": [
+            "smiling face",
+            "giving a thumbs up"
+        ],
+        "ready_to_continue": "true",
+        "current_step": "1",
+        "action_taken": "NONE,",
+        "completed_steps": "1",
+        "completed_substeps": 4
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Thank you, I'm glad we found everything we needed.",
+        "nonverbal_behavior": [
+            "smiling back",
+            "nodding in acknowledgment"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You've done a wonderful job selecting the items. Now, let's go ahead and pay for these groceries.",
+        "nonverbal_behavior": [
+            "smiling face",
+            "handing over the receipt and wallet"
+        ],
+        "ready_to_continue": "true",
+        "current_step": "1",
+        "action_taken": "NONE,",
+        "completed_steps": "1",
+        "completed_substeps": 4
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, let's go to the cashier to pay for these items.",
+        "nonverbal_behavior": [
+            "nods understandingly",
+            "begins to walk towards the cashier"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's take a look at these coupons together and see if any of them match the items we've picked up today.",
+        "nonverbal_behavior": [
+            "offers the envelope with a gentle smile",
+            "maintains eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "2",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "2",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm not sure I understand these coupons very well.",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "looking puzzled at the coupons"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's take a look at the coupons together and see if any of them match the items you've picked up.",
+        "nonverbal_behavior": [
+            "leaning in to look at the coupons with the patient",
+            "pointing to the items on the receipt"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "2",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "1",
+        "completed_substeps": 4
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I see. This one matches the broccoli we got. And here's one for the peas.",
+        "nonverbal_behavior": [
+            "patient points to the corresponding coupons",
+            "looks pleased with finding matches"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's right, you've matched the coupons correctly. Now, let's use these coupons at the cashier to get the discount on your broccoli and peas.",
+        "nonverbal_behavior": [
+            "smiling",
+            "nodding in approval"
+        ],
+        "ready_to_continue": "true",
+        "current_step": "2",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "2",
+        "completed_substeps": 2
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I see. I'm a bit confused about these coupons, but I'll try to follow along.",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "a slight frown",
+            "looking intently at the coupons"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! Now, let's make sure you received the right amount of change back.",
+        "nonverbal_behavior": [
+            "smiling",
+            "maintaining a calm and friendly demeanor"
+        ],
+        "ready_to_continue": "true",
+        "current_step": "3",
+        "action_taken": "NONE,",
+        "completed_steps": "3",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Thank you, I've got the change right here. Everything looks correct.",
+        "nonverbal_behavior": [
+            "smiling",
+            "showing the change to confirm"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

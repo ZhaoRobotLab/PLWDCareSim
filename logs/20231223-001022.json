@@ -1,0 +1,47 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you start by picking up the first item on this grocery list from the table?",
+        "nonverbal_behavior": [
+            "Point to the list and then to the table where the items are"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What list? I don't remember any list.",
+        "nonverbal_behavior": [
+            "looks around the room with a puzzled expression",
+            "hands remain still on lap"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "no"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "It's okay if you can't remember the list right now. We're going to start with just one item at a time. Can you pick up the box of chopped broccoli from the table?",
+        "nonverbal_behavior": [
+            "Points gently to the location of the broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Broccoli? I... what was I doing with the...?",
+        "nonverbal_behavior": [
+            "Visibly confused",
+            "looking around slowly",
+            "hand hovering over different items without picking one"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "no"
+    }
+]

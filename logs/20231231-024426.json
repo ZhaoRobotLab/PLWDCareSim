@@ -1,0 +1,127 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start the grocery shopping task. Here's the list. Can you find the items on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I can do that. Let's see, where are the items?",
+        "nonverbal_behavior": [
+            "Looks attentively at the shopping list",
+            "begins to search for items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Great, let's begin with finding the first item on your list. Please take your time looking for the box of Chopped Broccoli on the table.",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "gestures towards the table with the items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Here's the Chopped Broccoli!",
+        "nonverbal_behavior": [
+            "Patient smiles back",
+            "confidently reaches for the box of Chopped Broccoli on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great! Can you find the next item from the list?",
+        "nonverbal_behavior": [
+            "Nods in approval",
+            "maintains a gentle tone"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I can find the next item. What is it?",
+        "nonverbal_behavior": [
+            "Looks attentively at the list",
+            "appears calm and focused"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great! Now, can you find the Green Peas?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "maintains a calm demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying to find the peas, but it's a bit hard for me.",
+        "nonverbal_behavior": [
+            "frowns slightly",
+            "looks intently at the items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. The Green Peas are next. Can you see a box that might be the peas?",
+        "nonverbal_behavior": [
+            "Nods encouragingly",
+            "points gently towards the area where the peas are located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I think this is the box of Green Peas.",
+        "nonverbal_behavior": [
+            "Looks at the box",
+            "nods in understanding",
+            "reaches to pick it up"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

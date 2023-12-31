@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{hyperref}
+%Config for hyperref: Make links red, no box
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{glossaries}
+
+
+
+\makeglossaries
+
+%Agent
+\newglossaryentry{agent}{
+    name={Agent},
+    description={An object that communicates with GPT and another Agent. Receives \gls{state} from either \gls{context} files, simulated random parameters, or other Agent. \gls{interventionist} and \gls{patient} are both Agents}
+}
+
+%Interventionist
+\newglossaryentry{interventionist}{
+    name={Interventionist},
+    description={\gls{agent} that is responsible for initiating the \gls{task}, continuing through \gls{step}s and \gls{substep}s, ensuring that the \gls{task} is completed, communicating with the \gls{patient}, and Intervening during \gls{taskbreakdown} moments. Interventionist has its own \gls{context} object. Interventionist \gls{intervention}s are determined by the \gls{task}, the \gls{patient}, and the Simulation}
+}
+
+%Patient
+\newglossaryentry{patient}{
+    name={Patient},
+    description={\gls{agent} that is responsible for receiving the \gls{task}, communicating with the \gls{interventionist}, and completing the \gls{task}. Patient has its own \gls{context} object. Patient's actions are determined by the \gls{task}, the \gls{interventionist}, and the Simulation}
+}
+
+%GPTObject
+\newglossaryentry{gptobject}{
+    name={GPTObject},
+    description={An object that is used to communicate with GPT. Handles authentication, sending of API keys, adding/receiving context from other \gls{agent} or \gls{context} objects, and sending/receiving messages from GPT}
+}
+
+%Context
+\newglossaryentry{context}{
+    name={Context},
+    description={Stores context information for an \gls{agent}. Context is provided to GPT on initialization of Simulation, and provides initial guidance regarding the \gls{agent}'s role, rules for its responses, example formats for responses and inputs, and details regarding format for communicating in/out of the Simulation}
+}
+
+%Task
+\newglossaryentry{task}{
+    name={Task},
+    description={A task that is to be completed by the \gls{patient}. A Task is composed of \gls{step}s, which are composed of \gls{substep}s. A Task is provided to the \gls{patient} by the \gls{interventionist}. Tasks and \gls{step}s are provided to the \gls{patient}, and are defined in the SubtaskGuidance "passlist". An example Task is the "Grocery Shopping" Task}
+}
+
+%Task Breakdown
+\newglossaryentry{taskbreakdown}{
+    name={Task Breakdown},
+    description={A moment in the \gls{task} where the \gls{patient} is unable to continue. A Task Breakdown is determined by the \gls{patient}'s \gls{state}. A Task Breakdown is determined by the \gls{simmanager}. A Task Breakdown is generally caused by the \gls{patient} being unable to complete a \gls{step} or \gls{substep} due to an \gls{action}. A Task Breakdown is resolved by the \gls{interventionist} providing an \gls{intervention} to the \gls{patient} that successfully allows the \gls{patient} to continue. An example Task Breakdown is the \gls{patient} being unable to find the first item on a grocery list, and the \gls{interventionist} providing an \gls{intervention} that allows the \gls{patient} to successfully proceed.}
+}
+
+%Step
+\newglossaryentry{step}{
+    name={Step},
+    description={A single step in a \gls{task}. A Step is composed of \gls{substep}s. A Step is defined in the SubtaskGuidance "passlist". A Step is generally a distinct action that must be successfully completed for the \gls{patient} to continue. The \gls{interventionist} will describe the Step to the \gls{patient}, which may be presented as an initial comprehensive description, or a series of descriptions of \gls{substep}s as the \gls{patient} progresses. An example Step is "Find the first 4 items on this grocery list"}
+}
+
+%Substep
+\newglossaryentry{substep}{
+    name={Substep},
+    description={A distinct action, usually in a set of multiple actions, that the \gls{patient} must complete to successfully complete a \gls{step}}
+}
+
+%Simulation Manager (SimManager)
+\newglossaryentry{simmanager}{
+    name={Simulation Manager},
+    description={The Simulation Manager is responsible for initializing the Simulation, initializing the \gls{interventionist} and \gls{patient}, and running the Simulation. The Simulation Manager is responsible for receiving messages from the \gls{interventionist} and \gls{patient}, and sending messages to the \gls{interventionist} and \gls{patient}, and changing \gls{patient} or \gls{interventionist} \gls{state} according to predefined statistical parameters. The Simulation Manager is responsible for determining when the Simulation is complete, and for saving the Simulation to a file. Generally, the Simulation Manager is responsible for all interactions between \gls{agent}s, defined parameters, and output}
+}
+
+%Assistive Type
+\newglossaryentry{assistivetype}{
+    name={Assistive Type},
+    description={Defines the type of assistance the \gls{interventionist} provides to \gls{patient} on a given \gls{epoch}. Selected by the \gls{simmanager}. Can be: "None", "Verbal Supportive", "Verbal Non Directive", "Verbal Directive"}
+}
+
+%Action Type
+\newglossaryentry{actiontype}{
+    name={Action Type},
+    description={Defines the type of \gls{action} the \gls{patient} takes on a given \gls{epoch}. Selected by the \gls{simmanager}. Can be: "Forgetful", "Frustration", "Anger", "Disengaged", or "None"}
+}
+
+%Agent Parameters
+\newglossaryentry{agentparameters}{
+    name={Agent Parameters},
+    description={Parameters that are used to define the behavior of the \gls{interventionist} and \gls{patient}. These parameters are defined in the \gls{simmanager}, and are used to determine the behavior of the \gls{interventionist} and \gls{patient} on a given \gls{epoch}. These parameters are used to determine the probability of the \gls{interventionist} performing a given \gls{intervention} or \gls{patient} performing a given action, and the probability of the \gls{interventionist} or \gls{patient} changing state}
+}
+
+%State
+\newglossaryentry{state}{
+    name={State},
+    description={For the \gls{patient}, State describes the \gls{patient}'s selected \gls{action} for a given \gls{epoch}. State is determined statistically by the \gls{simmanager}}
+}
+
+%Action
+\newglossaryentry{action}{
+    name={Action},
+    description={For the \gls{patient}, An Action describes the \gls{patient}'s selected Action of a given \gls{actiontype} for a given \gls{epoch}. An Action is determined statistically by the \gls{simmanager}. More specifically, a \gls{patient} takes a given Action from a predefined set of Actions based on the \gls{interventionist}'s \gls{assistivetype}, and the designated value in the \gls{agentparameters} list. For example, a simulation of a \gls{patient} with moderate dementia has a 1\% chance of reacting to a Verbal Supportive \gls{intervention} with an "Anger" action. Actions are defined in the \gls{context} object and provide context and guidance for GPT to generate a response. Given an Action, GPT will generate a response (both verbal and nonverbal), which is then sent to the \gls{interventionist}.}
+}
+
+%Intervention
+\newglossaryentry{intervention}{
+    name={Intervention},
+    description={An Intervention is an action of a given \gls{assistivetype} taken by the \gls{interventionist} to influence the \gls{patient}'s behavior. An Intervention is determined statistically by the \gls{simmanager}. More specifically, an Intervention is taken from a predefined set of Interventions based on the \gls{interventionist}'s \gls{assistivetype}, and the designated value in the \gls{agentparameters} list. Interventions are defined in the \gls{context} object and provide context and guidance for GPT to generate a response. Given an Intervention, GPT will generate a response (both verbal and nonverbal), which is then sent to the \gls{patient}}
+}
+
+%Epoch
+\newglossaryentry{epoch}{
+    name={Epoch},
+    description={An Epoch is a single iteration of the Simulation. An Epoch is composed of a single \gls{intervention} by the \gls{interventionist}, followed by a single \gls{action} by the \gls{patient}. An Epoch is determined by the \gls{simmanager}. The \gls{simmanager} determines the \gls{patient}'s \gls{action} and the \gls{interventionist}'s \gls{intervention} based on the \gls{agentparameters}. The \gls{simmanager} then sends the \gls{interventionist}'s \gls{intervention} to the \gls{patient}, and the \gls{patient}'s \gls{action} to the \gls{interventionist}. The \gls{simmanager} manages changing of \gls{state} for the \gls{patient} and \gls{interventionist} before each Epoch and between \gls{communication}s.}
+}
+
+%Communication
+\newglossaryentry{communication}{
+    name={Communication},
+    description={A Communication is a single interaction between the \gls{interventionist} and \gls{patient}. A Communication is composed of a single \gls{intervention} by the \gls{interventionist}, followed by a single \gls{action} by the \gls{patient}. A Communication is determined by the \gls{simmanager}. The \gls{simmanager} determines the \gls{patient}'s \gls{action} and the \gls{interventionist}'s \gls{intervention} based on the \gls{agentparameters}. The \gls{simmanager} then sends the \gls{interventionist}'s \gls{intervention} to the \gls{patient}, and the \gls{patient}'s \gls{action} to the \gls{interventionist}. The \gls{simmanager} manages changing of \gls{state} for the \gls{patient} and \gls{interventionist} before each Communication and between Communications.}
+}
+\begin{document}
+
+Below is a glossary for terms used in this project. Red links are clickable cross-references.
+
+
+
+\glsaddallunused
+\printglossaries
+
+\end{document}

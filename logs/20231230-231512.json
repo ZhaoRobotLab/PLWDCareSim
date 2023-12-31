@@ -1,0 +1,122 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Now, let's find the items on your list from the table here.",
+        "nonverbal_behavior": [
+            "Points to the table where the items are laid out"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Alright, I see the table. Let's see what we have here.",
+        "nonverbal_behavior": [
+            "patient walks towards the table and looks attentively at the items"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. Can you find the box of chopped broccoli on the table?",
+        "nonverbal_behavior": [
+            "Smiles and nods encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Yes, I see the broccoli here.",
+        "nonverbal_behavior": [
+            "nods in response",
+            "reaches for the box of chopped broccoli"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great, you found the broccoli. What's the next item on the list?",
+        "nonverbal_behavior": [
+            "Smiles and nods to encourage the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I don't understand why you keep asking me. I already told you what's next!",
+        "nonverbal_behavior": [
+            "Furrows brow",
+            "crosses arms"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "yes",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. What do you see next on the list that you can pick up?",
+        "nonverbal_behavior": [
+            "Smiles reassuringly",
+            "maintains a calm demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Let's see, I have the broccoli. Now, I need to find the canned beans.",
+        "nonverbal_behavior": [
+            "Looks attentively at the items on the table",
+            "reaches for the canned beans"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. What's the next item on the list after the broccoli?",
+        "nonverbal_behavior": [
+            "Smiles and nods encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 1
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Let's see, after the broccoli... Ah, here it is, the can of beans!",
+        "nonverbal_behavior": [
+            "Nods confidently",
+            "reaches for the can of beans"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

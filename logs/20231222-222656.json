@@ -1,0 +1,73 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you show me what items we need from this list?",
+        "nonverbal_behavior": [
+            "Points to the grocery list"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Hmm, let me see. Now, where do we start? Oh dear, I know I've seen this list before...",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "repeatedly tapping the list with finger",
+            "conveying a sense of trying to remember"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What do you think is the first item you should find on this list?",
+        "nonverbal_behavior": [
+            "Gentle smile",
+            "nodding to indicate encouragement"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, let me see... umm, bread? Is bread the first one?",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "looking closely at the list",
+            "slight smile"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's check the grocery list together. Can you find the box of Chopped Broccoli first?",
+        "nonverbal_behavior": [
+            "Pointing to the Chopped Broccoli on the list and then gesturing towards the table of items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "1",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the chopped... leaves? Broccoli, right?",
+        "nonverbal_behavior": [
+            "slight frown",
+            "looking intently at the list",
+            "then the table",
+            "scratching head"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

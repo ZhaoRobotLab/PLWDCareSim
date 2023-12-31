@@ -1,0 +1,123 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start the grocery shopping task. Here's the list. Can you find the items on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm not sure what I'm supposed to do with this list.",
+        "nonverbal_behavior": [
+            "Looks at the list blankly",
+            "appears disinterested"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "no"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "We are going to pick up some items from this table that are on your list. Would you like me to go over the list with you again?",
+        "nonverbal_behavior": [
+            "Gestures towards the table with the items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "No, thank you, I can see the list. Let's start picking up the items.",
+        "nonverbal_behavior": [
+            "nods head",
+            "begins to look at the items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great! Please go ahead and pick up the first item, which is the box of Chopped Broccoli.",
+        "nonverbal_behavior": [
+            "Smiles and nods encouragingly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying, but it's a bit hard to see.",
+        "nonverbal_behavior": [
+            "Furrows brow",
+            "looks intently at the items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Would it help if we brought the items a little closer to you?",
+        "nonverbal_behavior": [
+            "Gestures to adjust the items on the table to make them more accessible"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "No, thank you, I can see them just fine.",
+        "nonverbal_behavior": [
+            "Smiles and nods",
+            "appears calm and ready to begin the task"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's great! Can you pick up the box of chopped broccoli first?",
+        "nonverbal_behavior": [
+            "Points to the box of chopped broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I'm trying, but it's not as easy as it looks.",
+        "nonverbal_behavior": [
+            "Sighs",
+            "appears slightly agitated",
+            "fumbles with items on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

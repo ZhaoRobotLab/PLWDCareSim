@@ -1,0 +1,34 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"ParticipantName, let's start the grocery shopping task by finding items on a shopping list. Here is a grocery list. Please select the items on the list from the table. Would you like the instructions repeated?\", ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"What was that first item again, dear?\", nonverbal_behavior=[furrowed brows, looking at the list intently but with a hint of confusion])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(ready_to_continue=true, current_step=2, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh dear, what was I looking for again?\", nonverbal_behavior=[furrowed brows, looking around aimlessly, repeated picking up and putting down items])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Patient: (forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=no, verbal_utterance=\"I can't seem to get this right. How does this work again?\", nonverbal_behavior=[shows signs of withdrawal, hands shaking slightly, looking down])|||Context:ready_to_continue=false current_step=1 final_step=false"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=no, verbal_utterance=\"I'm not sure what I'm doing anymore. Can you help me?\", nonverbal_behavior=[furrowed brows, staring at the list blankly, repeatedly tapping the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Patient: (forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=no, verbal_utterance=\"Change? Oh, I don't remember what I gave...\", nonverbal_behavior=[appearing lost, not focusing on the coins, hands not moving to count change])|||Context: ready_to_continue=false"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(ready_to_continue=yes, current_step=3, final_step=false)"
+    }
+]

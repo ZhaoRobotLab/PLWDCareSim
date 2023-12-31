@@ -1,0 +1,10 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"ParticipantName, let's start the grocery shopping task by finding items on a shopping list. Here is a grocery list. Please select the items on the list from the table. Would you like the instructions repeated?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"What list? Oh... okay, I see it now. No need to repeat, I think I understand.\", nonverbal_behavior=[searching gaze, slight frown, tentative movements towards the table])"
+    }
+]

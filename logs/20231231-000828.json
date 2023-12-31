@@ -1,0 +1,27 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "We're going to pick up some items from this list. Can you start by finding the first item on the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant",
+            "points to the table with items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE,",
+        "completed_steps": "0",
+        "completed_substeps": 0
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Sure, let me see. Here's the first item.",
+        "nonverbal_behavior": [
+            "Looks attentively at the list",
+            "reaches for the item on the table"
+        ],
+        "forgetfulness_status": "no",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

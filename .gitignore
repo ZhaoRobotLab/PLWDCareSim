@@ -1,0 +1,14 @@
+# Ignore .venv virtual environment files/
+.venv/
+#Ignore latex junk
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist

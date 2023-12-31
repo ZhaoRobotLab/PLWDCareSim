@@ -1,0 +1,114 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start by picking up the groceries. Can you find the first item, a box of chopped broccoli, on this table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, where did I put that list? Broccoli... I think I saw it here somewhere...",
+        "nonverbal_behavior": [
+            "searches through items on the table with a puzzled look"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! The list is right here in front of you. Can you find the box of chopped broccoli first?",
+        "nonverbal_behavior": [
+            "Points gently to the location of the grocery list and then to the box of chopped broccoli"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What list? I don't see any broccoli. What am I doing again?",
+        "nonverbal_behavior": [
+            "Looks around the table in a puzzled manner",
+            "slightly furrowed brows",
+            "hands passively at sides"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "no"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! You're looking for some vegetables on this list. Let's find the broccoli first. Can you see it here on the table?",
+        "nonverbal_behavior": [
+            "Gently guides hand towards the table to encourage searching"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, I'm looking for the veggies? Ah, broccoli... broccoli... Yes, I know what broccoli looks like,",
+        "nonverbal_behavior": [
+            "Squints at the table",
+            "slowly moves hands over items",
+            "appears to be searching for the broccoli"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Can you look for the green colored boxes? They might be the vegetables we're trying to find.",
+        "nonverbal_behavior": [
+            "Points gently to the area of the table where the green boxes are"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the vegetables... I think... um, is this the broccoli?",
+        "nonverbal_behavior": [
+            "reaches out hesitantly towards the green box",
+            "looking for confirmation"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're on the right track, that is indeed the broccoli. What's next on the list?",
+        "nonverbal_behavior": [
+            "Nods affirmatively toward the broccoli selection to reinforce a positive response",
+            "gestures towards the grocery list to suggest reviewing it for the next item"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The... broccoli? Is it... this one?",
+        "nonverbal_behavior": [
+            "Shows a puzzled look",
+            "hesitantly picks up incorrect items"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

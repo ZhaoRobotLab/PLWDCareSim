@@ -1,0 +1,118 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's your grocery list. Can you pick up the first item, the Chopped Broccoli, from the table?",
+        "nonverbal_behavior": [
+            "Hands grocery list to participant",
+            "gestures towards the items on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The broccoli... um, where did you say it was again?",
+        "nonverbal_behavior": [
+            "Looking around the table",
+            "appears puzzled",
+            "lightly touches objects on the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "The box of Chopped Broccoli is right here on the table, can you see it?",
+        "nonverbal_behavior": [
+            "Points to the box of Chopped Broccoli"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the broccoli, yes. Let's see, where did you say it was again?",
+        "nonverbal_behavior": [
+            "looks around the table with a puzzled expression",
+            "gently tapping the list on the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're looking for the Chopped Broccoli, it's just there near the green peas. Do you see it?",
+        "nonverbal_behavior": [
+            "Points to location of the Chopped Broccoli"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the broccoli... I just, uh, where did you say it was?",
+        "nonverbal_behavior": [
+            "looks around the table with a puzzled expression",
+            "tilts head slightly while trying to locate the item"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "The box of chopped broccoli is the green one right there, in front of you. Can you pick it up for me?",
+        "nonverbal_behavior": [
+            "Points to the box of chopped broccoli on the table",
+            "maintains a calm and friendly demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the broccoli... yes, the green... where did you say?",
+        "nonverbal_behavior": [
+            "Looks around the table in a confused manner",
+            "squints eyes to see better",
+            "moves hands tentatively towards different items"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "The box of chopped broccoli is right here, on the right side. Can you pick that up for us?",
+        "nonverbal_behavior": [
+            "Points to the box of chopped broccoli",
+            "smiles reassuringly"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "SPECIFIC"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Is this the broccoli?",
+        "nonverbal_behavior": [
+            "Looks at the box tentatively",
+            "reaches out slowly",
+            "seems unsure"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

@@ -1,0 +1,115 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "I see we have some grocery shopping to do. Could you please pick up the box of chopped broccoli from the table using this list?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Broccoli...? Oh, the green little trees! But where did I put that list?",
+        "nonverbal_behavior": [
+            "looking around in a puzzled manner",
+            "patting pockets as if searching for something"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What are you looking for right now?",
+        "nonverbal_behavior": [
+            "Gently touch patient's hand to refocus attention"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "I was... I was getting something...",
+        "nonverbal_behavior": [
+            "Looks around with a puzzled expression",
+            "furrows brow mildly"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "What was it that you were getting? Maybe it\u2019s listed in your hand?",
+        "nonverbal_behavior": [
+            "Gently pointing to the list in their hand"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, um, I'm supposed to get something... the broccoli, right?",
+        "nonverbal_behavior": [
+            "furrowing brows",
+            "looking down at the list",
+            "brief smile of recognition"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Yes, that's right! Would you like to check the list again to see what's next?",
+        "nonverbal_behavior": [
+            "Gentle smile",
+            "maintaining eye contact to encourage engagement"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the list... I knew there was something,",
+        "nonverbal_behavior": [
+            "nodding in understanding",
+            "visibly relieved to remember the list"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. Now, what's the next item on your list after the broccoli?",
+        "nonverbal_behavior": [
+            "smile encouragingly",
+            "maintain eye contact"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The... the next item? Oh, I do like broccoli. Let me see...",
+        "nonverbal_behavior": [
+            "furrows brow in concentration",
+            "peers at the list with uncertainty"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

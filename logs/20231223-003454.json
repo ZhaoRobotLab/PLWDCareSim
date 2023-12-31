@@ -1,0 +1,49 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Let's start with finding some groceries. We are looking for vegetables. Would you like to start by finding the chopped broccoli?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant",
+            "gestures towards the table with the grocery items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "NONE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Chopped broccoli... where did I see that?",
+        "nonverbal_behavior": [
+            "looking around the table with a pensive expression",
+            "picking up items and putting them back down"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing a great job searching. Have you spotted the box of green peas yet?",
+        "nonverbal_behavior": [
+            "Smiles encouragingly",
+            "points subtly to area where green peas may be located"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the green peas? Hmm, I think they might be over there, let me see...",
+        "nonverbal_behavior": [
+            "patient looks around the area searchingly",
+            "scratches head",
+            "moves hands over items on the table"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

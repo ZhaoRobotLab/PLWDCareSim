@@ -1,0 +1,27 @@
+SimManager initialized at 20231219-153239
+Interventionist did a step.
+	(verbal_utterance="Begin the task of selecting items from the grocery list on the table.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="What was I looking for again?",
+nonverbal_behavior=[scratching head, looks around aimlessly, appears to be trying to remember])
+
+
+Interventionist did a step.
+	(verbal_utterance="We're finding items from the grocery list. Let's look for the milk first. Can you find the milk for me?", nonverbal_behavior=[points to the table, maintains eye contact], ready_to_continue=false, current_step=0, final_step=false)
+
+
+Patient did a step.
+	(forgetfulness_status=yes,
+frustration_status=no,
+anger_status=no,
+engagement_status=yes,
+verbal_utterance="Milk... milk. Oh, I need to get the milk, don't I? Let me see.",
+nonverbal_behavior=[furrowed brow, looks carefully at the items on the table, moves slowly])
+
+

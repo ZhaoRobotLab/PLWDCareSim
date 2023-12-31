@@ -1,0 +1,47 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "I've got the grocery list for you. Could you please pick up the box of Chopped Broccoli from the table?",
+        "nonverbal_behavior": [
+            "Hands grocery list to participant",
+            "points to table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, the broccoli... It's... here, somewhere...",
+        "nonverbal_behavior": [
+            "looks around the room slowly",
+            "appears unsure where the table is"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing well. Can you find the table with the items?",
+        "nonverbal_behavior": [
+            "Smile and gesture towards the table with the grocery items"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Where's that... ah, the...broccoli, was it? I see the table,",
+        "nonverbal_behavior": [
+            "looks around the room slowly",
+            "appears mildly confused but still focused on locating the table"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

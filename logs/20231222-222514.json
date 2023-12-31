@@ -1,0 +1,116 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Here's the grocery list with the items we need to pick up. Could you please start by finding the box of Chopped Broccoli on this table?",
+        "nonverbal_behavior": [
+            "Presents grocery list to participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Broccoli? Oh, I know we need that...where did you say it was again?",
+        "nonverbal_behavior": [
+            "furrowed brows",
+            "appears to be searching the table with a bit of uncertainty"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. The broccoli is right there, on your left. Do you see it?",
+        "nonverbal_behavior": [
+            "Points gently to the location of the broccoli on the table"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What was I looking for again?",
+        "nonverbal_behavior": [
+            "looks around the table bewildered",
+            "squints eyes trying to recognize the broccoli"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you take a moment to look over the list in your hand? Which item do you see first?",
+        "nonverbal_behavior": [
+            "gestures softly towards the grocery list in the participant\u2019s hand",
+            "maintains a calm and friendly facial expression"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, is this the list for shopping? Hmm... the first item... Is it... noodles?",
+        "nonverbal_behavior": [
+            "looking intently at the list",
+            "then up at the helper with a puzzled expression",
+            "lightly tapping on the paper"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! Can you find the box of chopped broccoli on the table? It's one of the items on your list.",
+        "nonverbal_behavior": [
+            "Point to the box of chopped broccoli on the table and then smile encouragingly at the participant"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_SUPPORTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, there's a list? Let me see...",
+        "nonverbal_behavior": [
+            "participant squints at the list",
+            "then scans the table slowly with a slight frown of concentration"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "That's the list right there. Could any of these items on the table be on your list?",
+        "nonverbal_behavior": [
+            "Nods toward the table",
+            "maintaining a calm and friendly demeanor"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "The list? Oh yes, I have it... um, I'm looking for... what was it again?",
+        "nonverbal_behavior": [
+            "Looks at the list intently",
+            "then scans the table with a puzzled expression",
+            "a slight furrow forming on the brow"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "yes",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Could you please find the first item on this list from the items on the table?",
+        "nonverbal_behavior": [
+            "Hands shopping list to participant",
+            "points to the table where items are spread out"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What am I looking for again?",
+        "nonverbal_behavior": [
+            "looks at the list",
+            "then at the table",
+            "appears a bit bewildered"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great. Take your time and look for the first item on the list. What does it say at the very top?",
+        "nonverbal_behavior": [
+            "Gestures to the top of the list to prompt them to look for the first item"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Um, the first item you say? Let me see here...",
+        "nonverbal_behavior": [
+            "squinting at the list",
+            "slightly furrowed brow",
+            "fingers tracing the words on the list"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great! Can you show me the first item on the list from the table?",
+        "nonverbal_behavior": [
+            "Points to the table",
+            "maintains a warm smile"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, is this the one?",
+        "nonverbal_behavior": [
+            "picks up an unrelated item",
+            "looks expectantly for approval"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're doing great by checking the list. Let's look for the first item together. What's the first item written there?",
+        "nonverbal_behavior": [
+            "Gestures to the list",
+            "offers a reassuring smile"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh, what am I looking for again?",
+        "nonverbal_behavior": [
+            "scratches head",
+            "looks around the table slowly"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    },
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "You're looking for the items on this list. Would you like me to read the first item to you again?",
+        "nonverbal_behavior": [
+            "Gently points to the list and leans in closer to offer support"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0,"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "What am I looking for?",
+        "nonverbal_behavior": [
+            "looks at the list",
+            "then scans the table with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes,",
+        "frustration_status": "no,",
+        "anger_status": "no,",
+        "engagement_status": "yes,"
+    }
+]

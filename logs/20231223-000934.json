@@ -1,0 +1,24 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "verbal_utterance": "Can you show me what the first item on your grocery list is?",
+        "nonverbal_behavior": [
+            "Point to grocery list in participant's hand"
+        ],
+        "ready_to_continue": "false",
+        "current_step": "0",
+        "action_taken": "VERBAL_NON_DIRECTIVE"
+    },
+    {
+        "agent_type": "Patient",
+        "verbal_utterance": "Oh dear, is it... bread? No, no, I can't quite remember what's first...",
+        "nonverbal_behavior": [
+            "scratching head",
+            "looking at the list with a puzzled expression"
+        ],
+        "forgetfulness_status": "yes",
+        "frustration_status": "no",
+        "anger_status": "no",
+        "engagement_status": "yes"
+    }
+]

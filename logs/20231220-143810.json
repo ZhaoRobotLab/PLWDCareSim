@@ -1,0 +1,58 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"We're going to do some grocery shopping. Here's the list. Could you please pick up the first item on the list from the table?\", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh dear, is this the list for shopping? What was the first item again?\", nonverbal_behavior=[scratches head, appears slightly bewildered while staring at the list])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great! Can you tell me what the items you've found are? And, would you like me to go over the payment instructions again?\", nonverbal_behavior=[Offers a gentle smile and maintains a calm demeanor to reassure the patient], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"I have... oh, what's this called again? Yes, bread. And then... uh, was there something else?\", nonverbal_behavior=[Patient appears a bit puzzled, turning items over in hand, furrowed brow indicating a struggle to remember])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great! Can you check the list once more for the next item we need?\", nonverbal_behavior=[Smiles reassuringly, nods encouragingly], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, what are we looking for again?\", nonverbal_behavior=[furrowed eyebrows, slightly tilted head, shows a fleeting look of concentration])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You've done a great job with the bread. Can you find the next item on your list? What does it say right after the bread?\", nonverbal_behavior=[Smiles reassuringly, gestures towards the grocery list in the patient's hand], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"I got the bread... the next one...it's...oh dear, I'm not sure. Can you help?\", nonverbal_behavior=[Scratches head, looks pained and slightly anxious with a furrowed brow])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing well. What else is on the list that we still need to find?\", nonverbal_behavior=[Offers a gentle, reassuring smile and points to the shopping list], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, the list? I'm not sure where it is now.\" **peers around searching**, nonverbal_behavior=[Looks around puzzled, forehead creased in mild confusion])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great with the bread. What do you think comes next on the list? Maybe something to put on the bread?\", nonverbal_behavior=[Gestures encouragingly towards the list and the items on the table], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, yes, the list... Bread, and then, um...oh dear, is it butter or jam?\", nonverbal_behavior=[Squints at the list, slightly furrows brow as trying to recall the next item, gentle half-smile])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great! Bread is indeed one of the items. Can you take a look at the list and see if there's anything else we need to find on this table?\", nonverbal_behavior=[Smiles encouragingly, points to the grocery list], ready_to_continue=false, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Yes, the bread... I see. What was the next one...?\", nonverbal_behavior=[patient squints at the list, looks pensive and slightly confused but remains calm])"
+    }
+]

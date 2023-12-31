@@ -1,0 +1,90 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's start the grocery shopping task. Here's the list. Can you find the first item on the table?\", nonverbal_behavior=[Hands shopping list to participant], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Okay, let me see... what was the first item again?\", nonverbal_behavior=[squints at the list, appears to be searching for something but is uncertain where to start])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Would you like some help reading the list to find out what the first item is?\", nonverbal_behavior=[Leans in closer to offer assistance with reading the list], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, yes, please. What does it say at the top?\", nonverbal_behavior=[Squinting slightly at the list, leans forward towards the assistant])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Sure, the first item on the list is apples. Can you pick those up from the table?\", nonverbal_behavior=[Pointing to the location of the apples on the table, maintain a friendly facial expression], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Apples... apples... where did I put those apples?\", nonverbal_behavior=[Looking around the table in a confused manner, repeatedly reading the list, touching objects but hesitating])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"That's right, apples are what we're looking for first. What does an apple look like? Can you find something with that shape or color?\", nonverbal_behavior=[Gestures towards the table gently, providing a reassuring smile], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Apple... I usually have them...\", nonverbal_behavior=[looks intently at the items on the table, slightly furrowed brow, head tilting occasionally])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great. Can you find something on this table that might be on your list?\", nonverbal_behavior=[Points gently towards the table with the items], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Is this the apple?\", nonverbal_behavior=[Holds up an orange, looks questioningly towards the helper])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're very close! Look at the fruit you\u2019re holding and the ones on the table; do they match the picture next to the word 'apple' on your list?\", nonverbal_behavior=[Gesturing towards the list and then to the bowl of fruit on the table without directly pointing at the apples], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Hmm, is this one the apple?\", nonverbal_behavior=[Looking intently at the fruit in hand, slight furrow of the brow indicating concentration, but overall still calm and interested])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing great. Apples are usually red or green and a bit rounder. Does that help you spot them?\", nonverbal_behavior=[Smiles reassuringly, points gently towards the apples], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh yes, I think I know what an apple looks like. Are these the apples?\" [picks up an orange by mistake], nonverbal_behavior=[Slight frown on face as trying to distinguish fruits, light tremble in hands signaling uncertainty])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Does the item match the picture on the list? Perhaps, comparing them could help.\", nonverbal_behavior=[Points gently to the picture of an apple on the grocery list, giving a reassuring smile], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, right... apples. Apples... I think this one?\" [Holds up an orange], nonverbal_behavior=[Shows a puzzled expression, hesitantly picks up different fruits examining them])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"You're doing well! Apples are usually red or green. Do you see any fruit like that here?\", nonverbal_behavior=[Points gently towards the apples], ready_to_continue=false, current_step=0, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh yes, those are apples. I remember now, apples!\", nonverbal_behavior=[smiles slightly, nods in recognition, picks up an apple and holds it up])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Yes, that's an apple. Well done! What's the next item on the list?\", nonverbal_behavior=[Smiles encouragingly, maintains eye contact, nods to affirm selection], ready_to_continue=true, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"What's next? Oh...Hmm...\", nonverbal_behavior=[furrows brow slightly, lips purse in concentration while looking at the list])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Well done on finding the apples! Now, what's the next item on the list?\", nonverbal_behavior=[Smiles encouragingly, nods to validate correct selection], ready_to_continue=true, current_step=1, final_step=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Hmm, the next thing... Oh, my list. I had it. Where did it go?\", nonverbal_behavior=[Looks around in mild confusion, pats pockets searching for the list])"
+    }
+]

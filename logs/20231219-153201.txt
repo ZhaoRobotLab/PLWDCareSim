@@ -1,0 +1,5 @@
+SimManager initialized at 20231219-153201
+Interventionist did a step.
+	(verbal_utterance="ParticipantName, let's start the grocery shopping task by finding items on a shopping list.", nonverbal_behavior=[smile], ready_to_continue=false, current_step=0, final_step=false)
+
+

@@ -1,0 +1,34 @@
+[
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Here is the grocery list, ParticipantName. Can you find the items on the list from the table? Do you need me to repeat the instructions?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, where did I put my glasses? I had them just now...\", nonverbal_behavior=[patting pockets, searching around the room, mild confusion on the face])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(verbal_utterance=\"Let's see if we can find your glasses together. They might be close by. After that, can you look for the items on this grocery list on the table?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=no, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh dear, where did I put those glasses? But alright, I'll try to find the things on this list.\", nonverbal_behavior=[looks around the room slowly, squinting, touching objects on the table])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "(ready_to_continue=true)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh, I Had them just now. Where are my glasses? And what was I looking for?\", nonverbal_behavior=[furrowed brows, looking around aimlessly, slightly trembling hands])"
+    },
+    {
+        "agent_type": "Interventionist",
+        "response": "Interventionist: (verbal_utterance=\"I see you're looking for your glasses. Can they be on the table or near your usual spots? Let's focus on picking the items from the list. What's the first item you see on the list?\", ready_to_continue=false)"
+    },
+    {
+        "agent_type": "Patient",
+        "response": "(forgetfulness_status=yes, frustration_status=yes, anger_status=no, engagement_status=yes, verbal_utterance=\"Oh... I... where did I put them?\", nonverbal_behavior=[furrowed brows, scanning the room slowly, forgetful smile])"
+    }
+]
